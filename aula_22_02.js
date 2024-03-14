@@ -17,4 +17,18 @@ var peso=55.300;
 console.log(peso/altura**2);
 
 //5
+var num=8;
+var num1=10;
+console.log(num+num1);
+console.log(num-num1);
+console.log(num*num1);
+console.log(num/num1);
 
+//6
+var idade=15;
+var idade_velha=20;
+console.log(idade_velha>=idade);
+
+//7
+var idade=15;
+console.log(idade/2===0? 'par':'ímpar')

@@ -30,5 +30,9 @@ var idade_velha=20;
 console.log(idade_velha>=idade);
 
 //7
+var idade=18
+console.log(idade>=18 ? 'Maior de idade': 'Menor de idade');
+
+//8
 var idade=15;
-console.log(idade/2===0? 'par':'ímpar')
+console.log(idade/2===0 ? 'par':'ímpar')

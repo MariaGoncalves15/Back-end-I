@@ -1,5 +1,6 @@
 import input from'readline-sync'
 //Questãso 1
+
 let mes= input.questionInt('Digite um número:')
 switch (mes) {
     case 1:

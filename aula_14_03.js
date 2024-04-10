@@ -9,7 +9,7 @@ while (contador<=10) {
 }
 
 //2
-/*let numAlunos=input.questionInt('Digite o númerode alunos da turma: ');
+let numAlunos=input.questionInt('Digite o númerode alunos da turma: ');
 let somaMedias=0
 let contadorAlunos=1
 while(contadorAlunos <= numAlunos) {
@@ -21,7 +21,7 @@ while(contadorAlunos <= numAlunos) {
     console.log (media)
     contadorAlunos++
 }
-*/
+
 
 //Exercicio do Do/while
 //1

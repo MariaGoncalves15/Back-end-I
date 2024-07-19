@@ -13,15 +13,30 @@ let numAlunos=input.questionInt('Digite o númerode alunos da turma: ');
 let somaMedias=0
 let contadorAlunos=1
 while(contadorAlunos <= numAlunos) {
+    console.log(`Aluno ${contadorAlunos}:`);
 
-    let nota1=input.questionInt(`Digite a nota 1 do aluno: `);
-    let nota2=input.questionInt(`Digite a nota 2 do aluno: `);
-    let nota3=input.questionInt(`Digite a nota 3 do aluno: `);
-    let nota4=input.questionInt(`Digite a nota 4 do aluno: `);
-    console.log (media)
-    contadorAlunos++
+    let somaNotas = 0;
+    let contadorBimestres = 1;
+
+    while (contadorBimestres <= 4) {
+        let nota = rl.questionInt(`Digite a nota do ${contadorBimestres}º bimestre para o aluno ${contadorAlunos}: `);
+        somaNotas = somaNotas + nota;
+        contadorBimestres++;
+    }
+
+    let mediaAluno = somaNotas / 4;
+
+    somaMedias += mediaAluno;
+
+    console.log(`Média do aluno ${contadorAlunos}: ${mediaAluno.toFixed(2)}`);
+
+    contadorAlunos++;
 }
 
+let mediaGeralTurma = somaMedias / numAlunos;
+
+
+console.log(`Média geral da turma: ${mediaGeralTurma.toFixed(2)}`);
 
 //Exercicio do Do/while
 //1

@@ -29,3 +29,4 @@ Imovel.quartos=3;
 Imovel.tipo='casa'
 Imovel.endereco='Rua da Amizade, 789 - Bairro Alegre'
 console.log(imovel.exibirInformacoes());
+

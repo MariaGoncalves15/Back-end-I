@@ -28,7 +28,7 @@ console.log(categoria(7));
 function soma(num1, num2){
     return num1+num2;
 };
-console.log(soma(7,9));*/
+console.log(soma(7,9));
 
 let soma=function(num1, num2){
     return num1+num2;
